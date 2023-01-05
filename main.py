@@ -6,7 +6,7 @@ if sys.argv[-1] == "main.py":
 
 if sys.argv[-1] == "clean":
     import shutil
-    for i in ["build", "dist", "urlgenlib.egg-info"]:
+    for i in ["build", "dist", "randomyoutubevideo.egg-info"]:
         shutil.rmtree(i)
 
 if sys.argv[-1] == "build":
