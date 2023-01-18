@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='randomyoutubevideo',
-    version='1.0.0',
+    version='1.0.1',
     author='emresvd',
     packages=find_packages(),
     install_requires=[
-        'beautifulsoup4==4.9.3',
-        'requests==2.25.1',
+        'beautifulsoup4==4.11.1',
+        'requests==2.28.1',
         'youtube-search==1.1.1',
         'youtube-search-python==1.4.2',
     ],
